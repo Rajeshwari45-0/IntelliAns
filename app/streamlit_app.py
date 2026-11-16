@@ -10,6 +10,10 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from sentence_transformers import SentenceTransformer
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from app.process_document import process_document
 
