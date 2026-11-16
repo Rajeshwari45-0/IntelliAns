@@ -1,0 +1,638 @@
+[
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 1,
+        "chunk_number": 1,
+        "text": "Modern Education Society's College of Engineering, Pune My Files My Files 150126_research_paper (1) (1).pdf Document Details Submission ID trn:oid:::24993:126614469 Submission Date Jan 21, 2026, 9:20 AM GMT+5:30 Download Date Jan 21, 2026, 1:20 PM GMT+5:30 File Name 150126_research_paper (1) (1).pdf File Size 156.8 KB 6 Pages 4,696 Words 27,735 Characters Page 1 of 8 - Cover Page Submission ID trn:oid:::24993:126614469 Page 1 of 8 - Cover Page Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 1,
+        "text": "48% detected as AI The percentage indicates the combined amount of likely AI-generated text as well as likely AI-generated text that was also likely AI-paraphrased. Caution: Review required. It is essential to understand the limitations of AI detection before making decisions about a student’s work. We encourage you to learn more about Turnitin’s AI detection capabilities before using the tool. Detection Groups 26 AI-generated only 48% Likely AI-generated text from a large-language model."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 2,
+        "text": "Detection Groups 26 AI-generated only 48% Likely AI-generated text from a large-language model. 0 AI-generated text that was AI-paraphrased 0% Likely AI-generated text that was likely revised using an AI-paraphrase tool or word spinner. Disclaimer Our AI writing assessment is designed to help educators identify text that might be prepared by a generative AI tool."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 3,
+        "text": "is designed to help educators identify text that might be prepared by a generative AI tool. Our AI writing assessment may not always be accurate (i.e., our AI models may produce either false positive results or false negative results), so it should not be used as the sole basis for adverse actions against a student."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 4,
+        "text": "negative results), so it should not be used as the sole basis for adverse actions against a student. It takes further scrutiny and human judgment in conjunction with an organization's application of its specific academic policies to determine whether any academic misconduct has occurred. Frequently Asked Questions How should I interpret Turnitin's AI writing percentage and false positives?"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 5,
+        "text": "Asked Questions How should I interpret Turnitin's AI writing percentage and false positives? The percentage shown in the AI writing report is the amount of qualifying text within the submission that Turnitin’s AI writing detection model determines was either likely AI-generated text from a large-language model or likely AI-generated text that was likely revised using an AI paraphrase tool or word spinner."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 6,
+        "text": "or likely AI-generated text that was likely revised using an AI paraphrase tool or word spinner. False positives (incorrectly flagging human-written text as AI-generated) are a possibility in AI models. AI detection scores under 20%, which we do not surface in new reports, have a higher likelihood of false positives. To reduce the likelihood of misinterpretation, no score or highlights are attributed and are indicated with an asterisk in the report (*%)."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 7,
+        "text": "no score or highlights are attributed and are indicated with an asterisk in the report (*%). The AI writing percentage should not be the sole basis to determine whether misconduct has occurred. The reviewer/instructor should use the percentage as a means to start a formative conversation with their student and/or use it to examine the submitted assignment in accordance with their school's policies. What does 'qualifying text' mean?"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 8,
+        "text": "submitted assignment in accordance with their school's policies. What does 'qualifying text' mean? Our model only processes qualifying text in the form of long-form writing. Long-form writing means individual sentences contained in paragraphs that make up a longer piece of written work, such as an essay, a dissertation, or an article, etc."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 9,
+        "text": "that make up a longer piece of written work, such as an essay, a dissertation, or an article, etc. Qualifying text that has been determined to be likely AI-generated will be highlighted in cyan in the submission, and likely AI-generated and then likely AI-paraphrased will be highlighted purple. Non-qualifying text, such as bullet points, annotated bibliographies, etc., will not be processed and can create disparity between the submission highlights and the percentage shown."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 2,
+        "chunk_number": 10,
+        "text": "be processed and can create disparity between the submission highlights and the percentage shown. Page 2 of 8 - AI Writing Overview Submission ID trn:oid:::24993:126614469 Page 2 of 8 - AI Writing Overview Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 1,
+        "text": "TalkFlow: Real-Time Browser-Based S2ST via Hybrid Streaming Architectures Dr. S. P. Khedkar, Shrinath Hinge, Maya Aswar, Rajeshwari Arekar, Parth Dake Department of Computer Engineering Modern Education Society’s Wadia College of Engineering Pune, India Abstract—Real-time speech-to-speech translation (S2ST) in the browser is well known topic but does not survive in real world applications ."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 2,
+        "text": "(S2ST) in the browser is well known topic but does not survive in real world applications . The engineering constraints are hostile: standard web based systems lack the GPU memory required for high-quality End-to-End (E2E) models, while traditional server-side pipelines causes increase in latency that disrupts the flow of natural conversation (delay in translation)."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 3,
+        "text": "causes increase in latency that disrupts the flow of natural conversation (delay in translation). This paper reviews the current literature (2021–2025), arguing that the field is obsessed with BLEU scores has blurred the more critical metric of ”Time-to-Audio.” We disagree the assumption of heavy Transformer models can simply be ported to WebAssembly, identifying specific failures like garbage collection pauses and serialization overhead."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 4,
+        "text": "identifying specific failures like garbage collection pauses and serialization overhead. Instead, we present TalkFlow: a hybrid approach mix of end-to-end and server side pipeline , hybrid-streaming architecture avoids heavy inference to the server while keeping Voice Activity Detection (VAD) strictly on client-side. By prioritizing low-latency performance over perfect grammatical accuracy, we demonstrate the only viable path for deploying S2ST on the open web without crashing consumer hardware."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 5,
+        "text": "the only viable path for deploying S2ST on the open web without crashing consumer hardware. I. INTRODUCTION Global collaboration is heavily dependent on seamless communication, yet language barriers heavily disrupt video conferencing, remote diagnosis and treatment of patients by means of telecommunications technology, and live academic interactions(lectures). While text translation seems to be everywhere, Speech-to-Speech Translation (S2ST) presents a much more unstable and volatile challenge."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 6,
+        "text": "Speech-to-Speech Translation (S2ST) presents a much more unstable and volatile challenge. The latency tolerance for a live conversation is very low; a delay of even three seconds can break the “turn-taking” dynamic essential for natural speech to happen. When the audio lags behind visuals, or when users accidentally interrupt each other due to lag, trust in the communication tool evaporates and tool fails to serve it’s purpose."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 7,
+        "text": "other due to lag, trust in the communication tool evaporates and tool fails to serve it’s purpose. The TalkFlow project investigates a particular, highly constrained problem space: achieving this translation directly within a web browser, without depending on native OS-level software, plugins, or dedicated hardware push."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 8,
+        "text": "a web browser, without depending on native OS-level software, plugins, or dedicated hardware push. Browsers operate in sand-boxed environments with strict restrictions on memory usage, thread execution, and GPU access, making standard server-side approaches difficult to port to the client side. The core engineering difficulty in S2ST is the inversly proportional relationship between accuracy and speed."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 9,
+        "text": "engineering difficulty in S2ST is the inversly proportional relationship between accuracy and speed. Highly accurate models (like large Transformers) are generally slow and dull, rendering them useless for live chat. Fast models often degrade meaning, tone within language or hallucinate translations. Furthermore, traditional “cascaded” systems (which pipe audio to text, translate the text, then synthesize speech) suffer from various errors."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 10,
+        "text": "(which pipe audio to text, translate the text, then synthesize speech) suffer from various errors. A single mistake in the first step can corrupt the entire output. This paper surveys the basic structure of S2ST architectures with a special focus on browser compatibility. We filter out theoretical approaches that require industrial-grade GPUs and focus on what is deployable today. We then focus on detailing the specific architecture of TalkFlow, a hybrid system that balances these constraints."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 11,
+        "text": "on detailing the specific architecture of TalkFlow, a hybrid system that balances these constraints. II. PROBLEM STATEMENT: THE BROWSER AS A HOSTILE ENVIRONMENT Deploying neural networks in a web browser is essentially different from deploying them on a server or a native mobile app. The browser is a sandboxed environment designed mainly for document rendering, not heavy matrix multiplication.From deploying them on a server or a native mobile app."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 12,
+        "text": "rendering, not heavy matrix multiplication.From deploying them on a server or a native mobile app. The browser is a sandboxed environment designed mainly for document rendering, not heavy tasks like matrix multiplication. A. Memory Constraints and Garbage Collection A desktop Chrome tab might have access to 4GB of RAM, but sometimes a mobile Safari tab might be killed if it exceeds 300MB. This difference which is caused by unfair treatment is critical."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 13,
+        "text": "be killed if it exceeds 300MB. This difference which is caused by unfair treatment is critical. Most papers we reviewed [1, 3, 16] are tested on desktop environments or servers. When we tried to load standard Transformer models on mobile browsers during our initial tests; the “Out of Memory” (OOM) crash rate was nearly 100%. In addition, JavaScript’s Garbage Collection (GC) pauses can cause in disruption of smooth flow of words in audio playback, which is unacceptable for S2ST. B."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 14,
+        "text": "cause in disruption of smooth flow of words in audio playback, which is unacceptable for S2ST. B. Execution Speed: JS vs. WASM JavaScript is single-threaded and dynamically typed, making it too slow for complex neural network inference loops. The solution is WebAssembly (WASM), a low-level binary instruction format that runs at near-native speed."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 3,
+        "chunk_number": 15,
+        "text": "is WebAssembly (WASM), a low-level binary instruction format that runs at near-native speed. However, moving data between the JavaScript main thread (which handles the microphone) and the WASM worker thread (which processes audio) introduces the process of converting a complex data structure overhead that adds to the total latency budget. Page 3 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 3 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 1,
+        "text": "III. SURVEY OF COMPONENT ARCHITECTURES To understand why real-time translation fails in the browser, one must first dissect the standard “Cascaded” pipeline. We analyzed the three constituent stages—ASR, MT, and TTS—to identify the specific computational bottlenecks that prevent fluid interaction. A. Automatic Speech Recognition (ASR) The first and most critical stage converts raw audio waveforms into text."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 2,
+        "text": "Speech Recognition (ASR) The first and most critical stage converts raw audio waveforms into text. Recent advances have moved decisively from statistical Hidden Markov Models (HMM) to deep learning approaches based on Self-Supervised Learning (SSL). 1) The Shift to Transformers: The Shift to Transformers: Models like OpenAI’s Whisper and Meta’s wav2vec 2.0 have revolutionized this space."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 3,
+        "text": "to Transformers: Models like OpenAI’s Whisper and Meta’s wav2vec 2.0 have revolutionized this space. Unlike previous generations that relied on Connectionist Temporal Classification (CTC) losses and perfectly labeled transcripts, these modern Transformers are trained on massive, weakly labeled datasets which are scraped from the web. Madkaikar et al. [5] and Shah et al. [9] clearly demonstrate systems utilizing OpenAI’s Whisper model to improve multimedia accessibility."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 4,
+        "text": "clearly demonstrate systems utilizing OpenAI’s Whisper model to improve multimedia accessibility. These studies highlight Whisper’s unique Encoder-Decoder architecture, which allows it to perform implicit punctuation and casing restoration—features critical for readability but are computationally expensive. However, this robustness comes at a severe cost: parameter count. The “Whisper Large” model, which achieves human-level accuracy, contains 1.55 billion parameters which is very high."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 5,
+        "text": "model, which achieves human-level accuracy, contains 1.55 billion parameters which is very high. In a server environment, loading a 3GB model into VRAM is trivial. In a browser environment, it is restrictive. 2) Browser Reality and Failure Modes: Browser Reality and Failure Modes: Our architectural evaluation found that running the full Whisper model in-browser via WebAssembly is too difficult and practically impossible on consumer devices."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 6,
+        "text": "model in-browser via WebAssembly is too difficult and practically impossible on consumer devices. While “distilled” or compressed versions (like Whisper Tiny) exist, they shows a non-linear drop in accuracy. Specifically, on non-native English accents (e.g., African-American Vernacular English, Indian English, or Cajun English), the Word Error Rate (WER) of the Tiny model of Whisper increases significantly compared to the Large model. Chaudhari et al."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 7,
+        "text": "of the Tiny model of Whisper increases significantly compared to the Large model. Chaudhari et al. [1] emphasize that breaking communication barriers requires strong recognition of regional or social variations of a single language; unfortunately, the only models small enough to run in a browser are often the ones least capable of handling accent variations. This creates a ”usability gap” where the tool works for American English speakers but fails for the global audience. B."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 8,
+        "text": "gap” where the tool works for American English speakers but fails for the global audience. B. Machine Translation (MT) The text output from ASR is fed into an MT engine. This stage introduces a subtle but deadly form of latency: semantic delay. 1) The Attention Bottleneck: The Transformer architecture, with its self-attention mechanism, is the important force in modern MT. It processes tokens with a quadratic complexity relative to sequence length (O(N 2))."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 9,
+        "text": "in modern MT. It processes tokens with a quadratic complexity relative to sequence length (O(N 2)). The standard Neural Machine Translation (NMT) models are designed to work on full sentences. They need to see the end of the sentence to correctly align words at the beginning. For example, in Hindi-to-English translation, the verb often appears at the end of the Hindi sentence but at the beginning of the English sentence."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 10,
+        "text": "verb often appears at the end of the Hindi sentence but at the beginning of the English sentence. In a live stream, waiting for the user to finish a sentence introduces an unacceptable 3–5 second pause known as ”reordering latency.” 2) Streaming Policies and ”Wait-k”: To solve this, we must use“Simultaneous Translation” policies. The most cited approach is the “wait-k” policy described by Han et al. [31]. In this strategy, the model waits for k source words before generating a target word."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 11,
+        "text": "et al. [31]. In this strategy, the model waits for k source words before generating a target word. • High k (e.g., k = 5): The model has more context and produces better translations, but the user experience a distinct lag. • Low k (e.g., k = 2): The translation appears instantly, but the risk of hallucination drastically increase."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 12,
+        "text": "k = 2): The translation appears instantly, but the risk of hallucination drastically increase. 3) The Flicker Problem: Our review identified a critical user experience failure in streaming MT known as “flicker.” If the system guesses a translation early (Low k) and then realizes it was wrong as more words arrive, it must rewrite the screen."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 13,
+        "text": "early (Low k) and then realizes it was wrong as more words arrive, it must rewrite the screen. If a user says “I am...”, the model might display “I am happy.” If the user continues “...going to the market,” the system must delete “happy” and insert “going to.” Frequent rewriting confuses users and increases cognitive load, making the transcript difficult to read in real-time. This phenomenon is rarely captured in BLEU scores but is devastating in user testing. C."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 14,
+        "text": "real-time. This phenomenon is rarely captured in BLEU scores but is devastating in user testing. C. Text-to-Speech (TTS) The final stage synthesizes the translated text back into audio. This is often the forgotten bottleneck. Santosa et al. [4] correctly identified TTS as the most significant source of absolute latency in mobile conversation systems."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 15,
+        "text": "identified TTS as the most significant source of absolute latency in mobile conversation systems. 1) The Two-Stage Pipeline: Modern neural TTS is not a single model; it is usually a pipeline of two distinct networks: 1) Acoustic Model (e.g., Tacotron 2): Converts text into a Mel-spectrogram (a visual representation of sound). This requires complex sequence-to-sequence mapping. 2) Vocoder (e.g., HiFi-GAN): Converts the Mel-spectrogram into a raw audio waveform."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 16,
+        "text": "mapping. 2) Vocoder (e.g., HiFi-GAN): Converts the Mel-spectrogram into a raw audio waveform. This two-step process doubles the inference overhead. The Vocoder is particularly expensive because it must generate 24,000 or 48,000 distinct amplitude values for every single second of audio. 2) The ”Human-Like” Trap: There is a trade-off between naturalness and speed."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 17,
+        "text": "second of audio. 2) The ”Human-Like” Trap: There is a trade-off between naturalness and speed. Models like VITS (Variational Inference with adversarial learning for Text-to-Speech) or FastSpeech 2 sound indistinguishable from human speakers but require heavy GPU resources. On a mobile CPU, these models process slower than real-time (Real-Time Factor ¿ 1.0), meaning the audio stutters because the playback consumes samples faster than the model can generate them."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 4,
+        "chunk_number": 18,
+        "text": "the audio stutters because the playback consumes samples faster than the model can generate them. Parametric or Concatenative TTS systems (older technology) are much faster and can run easily in a browser, but they sound robotic. For TalkFlow, we faced a Page 4 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 4 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 1,
+        "text": "difficult engineering choice: sacrifice the “human” quality of the voice to ensure that the voice responds instantly. We prioritized speed, realizing that in a conversation, a slightly robotic voice that replies immediately is far better than a realistic voice that replies 5 seconds too late. IV. CRITIQUE OF END-TO-END ARCHITECTURES To bypass the latency of sequential processing, recent academic research has aggressively pivoted toward End-to-End (E2E) architectures."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 2,
+        "text": "processing, recent academic research has aggressively pivoted toward End-to-End (E2E) architectures. In theory, these systems promise to solve the error propagation problem by collapsing the entire ASR-MT-TTS pipeline into a single neural network. However, our evaluation reveals a stark contrast between their theoretical elegance and their practical deployability in a browser environment. A."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 3,
+        "text": "between their theoretical elegance and their practical deployability in a browser environment. A. Direct S2ST Models: The Spectrogram Trap Models such as Google’s Translatotron 2 and Meta’s SeamlessM4T [28] treat translation as a direct mapping problem. They take in information as a raw audio spectrogram in the source language and generate a spectrogram in the target language, bypassing text entirely. 1) Prosody Preservation vs. Control: Garg et al."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 4,
+        "text": "in the target language, bypassing text entirely. 1) Prosody Preservation vs. Control: Garg et al. [27] correctly note that E2E models are superior in preserving the vocal aspects of communication beyond the words themselves . If a speaker whispers or shouts, an E2E model can theoretically transfer that acoustic energy to the translated output. However, from an engineering perspective, this ”black box” nature is a liability."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 5,
+        "text": "translated output. However, from an engineering perspective, this ”black box” nature is a liability. In a Cascaded system, if the model mistranslates a specific proper noun (e.g., ”Pune”), we can simply add it to the ASR dictionary. In a direct S2ST model, there is no intermediate text representation to edit. Fixing a single vocabulary error often requires retraining or fine-tuning the entire massive model, which is operationally not possible to do easily for a live application B."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 6,
+        "text": "the entire massive model, which is operationally not possible to do easily for a live application B. Discrete Unit Models A sub-category of E2E research, supported by Dong et al. [21], utilizes ”discrete acoustic units” (such as HuBERT codes) instead of raw spectrograms. The idea is to compress speech into a sequence of integers, translate those integers, and then resynthesize audio."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 7,
+        "text": "compress speech into a sequence of integers, translate those integers, and then resynthesize audio. This reduces the computational load compared to spectrogram generation and we found the output quality to be not enough. The processed and synthesized speech often suffers from ”robotic” artifacts and metallic distortion. For a consumer-facing application like TalkFlow, where user trust depends on voice clarity, these aural artifacts were considered unacceptable. C."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 8,
+        "text": "where user trust depends on voice clarity, these aural artifacts were considered unacceptable. C. Why E2E Failed for TalkFlow Despite the hype, E2E models remain undeployable for client-side web applications for three specific reasons: 1) The Cold Start Problem: A high-quality E2E model like SeamlessM4T can exceed 4GB in size. Wang et al. [29] discuss model compression, but even a quantized 1GB model is too large for a web user to download just to join a 5-minute meeting."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 9,
+        "text": "even a quantized 1GB model is too large for a web user to download just to join a 5-minute meeting. The ”Time-to-Interactive” would be measured in minutes, not milliseconds. 2) VRAM Exhaustion: Browser tabs have strict memory caps. A model that requires 6GB of VRAM to run inference will simply crash a standard laptop browser, and will trigger an immediate kill signal on mobile OSs. 3) Data Scarcity: E2E models are ”data hungry.” They require massive corpora of translated audio-to-audio pairs."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 10,
+        "text": "E2E models are ”data hungry.” They require massive corpora of translated audio-to-audio pairs. For Indian languages, such high-quality parallel audio data is virtually non-existent compared to text data. Relying on E2E would severely limit TalkFlow’s language support. We conclude that while E2E is the future of *research*, it is not yet the present of *engineering*."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 11,
+        "text": "We conclude that while E2E is the future of *research*, it is not yet the present of *engineering*. Until WebGPU matures and mobile devices ship with significantly more NPU (Neural Processing Unit) memory, E2E remains a server-side luxury, not a client-side solution. V. THE TALKFLOW HYBRID ARCHITECTURE Based on the survey results and the specific constraints of the browser, TalkFlow adopts a **Hybrid-Streaming Cascaded Architecture**. A."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 12,
+        "text": "constraints of the browser, TalkFlow adopts a **Hybrid-Streaming Cascaded Architecture**. A. Architectural Split We distribute the workload based on the strengths of the client and the server: • Client-Side (WASM): Handles high-frequency, low-latency tasks. This includes capturing audio, resampling it to 16kHz, and running a lightweight Voice Activity Detection (VAD) model. • Server-Side (GPU): Handles heavy inference tasks."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 13,
+        "text": "Voice Activity Detection (VAD) model. • Server-Side (GPU): Handles heavy inference tasks. This includes the ASR (Speech-to-Text), MT (Translation), and TTS (Text-to-Speech) pipelines. B. Negative Results & Rejected Designs This section details approaches we attempted but abandoned. Reporting failures is crucial for preventing future redundant efforts. 1) Failure 1: Client-Side Whisper (ONNX): We attempted to run the full OpenAI Whisper “Tiny” model entirely in-browser using ONNX Runtime Web."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 14,
+        "text": "We attempted to run the full OpenAI Whisper “Tiny” model entirely in-browser using ONNX Runtime Web. This failed. The memory spikes frequently crashed the tab on mobile devices (iOS Safari limits were particularly strict). Additionally, the “cold start” time—downloading the 75MB weights and compiling the WASM—took over 10 seconds on 4G networks, causing users to leave the app. 2) Failure 2: Server-Side VAD: We initially sent all audio to the server and ran VAD there."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 5,
+        "chunk_number": 15,
+        "text": "the app. 2) Failure 2: Server-Side VAD: We initially sent all audio to the server and ran VAD there. This wasted bandwidth by streaming silence. Moving VAD to the client side via WASM reduced bandwidth usage by approximately 40% and made the UI feel quicker because the visual “Listening” indicator reacted instantly to the user’s voice. Page 5 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 5 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 1,
+        "text": "User Speech VAD & Chunking (WASM) Streaming ASR Context-Aware MT TTS Synthesis Translated Output Opus Stream Text Token Translated Text Client Side Fig. 1: The TalkFlow Hybrid Pipeline. Note the strict separation of Client (WASM) and Server tasks to optimize bandwidth. 3) Failure 3: HTTP Polling: We tried sending audio chunks via standard HTTP POST requests. In poor network conditions, requests would arrive out of order, causing the translation to be messed up."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 2,
+        "text": "network conditions, requests would arrive out of order, causing the translation to be messed up. We switched to WebRTC Data Channels, which offer ordered, reliable delivery with lower cost than HTTP handshakes. VI. OPTIMIZATION TECHNIQUES Deploying deep learning models in a browser environment is not just a software challenge; it is a fight against resource consuption."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 3,
+        "text": "a browser environment is not just a software challenge; it is a fight against resource consuption. Raw server-grade models are too heavy for client-side execution, and standard web protocols uses more words than needed for real-time audio. To make TalkFlow sucessful, we applied a layered optimization strategy targeting compute, memory, and network throughput. A. Aggressive Quantization Strategy Quantization is the non-negotiable first step in optimization."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 4,
+        "text": "A. Aggressive Quantization Strategy Quantization is the non-negotiable first step in optimization. Standard deep learning models operate on 32-bit floating-point numbers (FP32). This precision is unnecessary for inference. By converting model weights to 8-bit integers (Int8), we reduce the model size by a factor of four. For TalkFlow, we strictly apply Int8 quantization on both client and server models. While Padmanandam et al."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 5,
+        "text": "we strictly apply Int8 quantization on both client and server models. While Padmanandam et al. [15] suggest this might reduce accuracy in complex aural environments, our internal benchmarks using ONNX Runtime showed that the inference speed gain (approximately 3x) far outweighs the slight drop in BLEU scores. We experimented with 4-bit quantization but rejected it due to excessive hallucination on non-native accents. B."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 6,
+        "text": "with 4-bit quantization but rejected it due to excessive hallucination on non-native accents. B. Zero-Copy Memory Management One of the overlooked bottlenecks in browser-based AI is JavaScript’s Garbage Collection (GC). In a typical implementation, audio chunks are created as new ‘Float32Array‘ objects 50 times per second. This rapid allocation makes GC pause frequently, causing audible stuttering in the output stream."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 7,
+        "text": "This rapid allocation makes GC pause frequently, causing audible stuttering in the output stream. To reduce this, we implemented a **Zero-Copy** architecture using ‘SharedArrayBuffer‘. Instead of allocating new memory for every audio frame, we allocate a single ring buffer at startup. The WASM worker writes directly into this pre-allocated memory space, and the main thread reads from it without copying data."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 8,
+        "text": "into this pre-allocated memory space, and the main thread reads from it without copying data. This technique is commonly used in game engine development, virtually eliminated GC-induced latency spikes in our tests. C. Efficient Serialization via Protocol Buffers The standard web format, JSON, is text-based and computationally expensive to parse. For high-frequency audio metadata, the serialization cost of JSON is unacceptable."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 9,
+        "text": "to parse. For high-frequency audio metadata, the serialization cost of JSON is unacceptable. We transitioned the entire transport layer to **Protocol Buffers (Protobuf)**. Unlike JSON, Protobuf compiles data into a dense binary format. This reduced our average payload size by 30% and, more critically, reduced the CPU time required to parse incoming messages by over 60%. In a constrained mobile browser environment, saving CPU cycles on parsing leaves more headroom for the actual audio rendering."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 10,
+        "text": "environment, saving CPU cycles on parsing leaves more headroom for the actual audio rendering. D. Voice Activity Detection (VAD) Tuning Optimizing bandwidth is as important as optimizing code. Streaming silence to a server is a waste of resources. We implemented the Silero VAD model explicitly on the client side using WebAssembly. However, naive VAD implementation cuts off speakers too aggressively."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 11,
+        "text": "client side using WebAssembly. However, naive VAD implementation cuts off speakers too aggressively. We fine-tuned the ”speech hangover” parameter—the duration the system waits after voice activity stops before declaring silence—to 500ms. This prevents the system from cutting the ends of sentences while still ensuring that non-speech audio (like keyboard typing or background noise) is not transmitted to the translation engine. E. Secure Audio Execution Optimization also involves security."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 12,
+        "text": "to the translation engine. E. Secure Audio Execution Optimization also involves security. Jeny et al. [14] highlighted the critical need for secure audio processing to prevent side-channel attacks. By isolating our audio processing logic inside a dedicated Web Worker, we ensure that raw PCM audio data is never exposed to the main window scope."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 6,
+        "chunk_number": 13,
+        "text": "a dedicated Web Worker, we ensure that raw PCM audio data is never exposed to the main window scope. This architectural separation ensures that third-party tracking scripts or malicious browser extensions cannot access the user’s microphone stream, complying with strict privacy standards while maintaining high performance. Page 6 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 6 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 1,
+        "text": "VII. COMPARATIVE ANALYSIS We evaluated our proposed architecture not just on theoretical benchmarks, but against the harsh reality of browser constraints. This section compares TalkFlow against the two dominant paradigms—Cascaded and End-to-End—using the failure modes identified during our development process. A. The Latency vs. Utility Trade-off The most significant finding of our survey is that “accuracy” is a misleading metric for real-time systems."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 2,
+        "text": "significant finding of our survey is that “accuracy” is a misleading metric for real-time systems. In a static translation task, a Cascaded system (ASR → MT → TTS) is clearly best, often achieving BLEU scores 15–20% higher than streaming models. However, in a live conversation, utility is a function of time. A perfectly accurate, grammatically flawless translation that arrives 4500ms late (Table I) is useless."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 3,
+        "text": "accurate, grammatically flawless translation that arrives 4500ms late (Table I) is useless. It arrives after the visual cue of the speaker’s face has changed, causing psychological discomfort for the listener. TalkFlow prioritizes utility. By accepting a lower context window (translating chunks of 3-4 words), we introduce occasional grammatical errors (e.g., gender agreement issues in Hindi-to-English). However, because the latency is kept under 800ms, the conversation remains fluid."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 4,
+        "text": "Hindi-to-English). However, because the latency is kept under 800ms, the conversation remains fluid. The user can correct the understanding in real-time (”Oh, I meant...”) much like they would in a natural single language conversation. B. User Perception Analysis Our architectural choice is supported by the findings of Mieno et al. [26], who posed the fundamental question: Speed or Accuracy?"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 5,
+        "text": "by the findings of Mieno et al. [26], who posed the fundamental question: Speed or Accuracy? Their research indicates that in simultaneous translation scenarios, users punish latency much more severely than they punish small mistakes with individual words. When a system lags, users tend to stop speaking to ”wait” for the translator to catch up. This behavior, known as the ”waiting game,” destroys the natural flow of the meeting. TalkFlow’s hybrid-streaming approach minimizes this effect."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 6,
+        "text": "the natural flow of the meeting. TalkFlow’s hybrid-streaming approach minimizes this effect. By providing instant (albeit imperfect) feedback via the client-side VAD and streaming text, users feel confident to continue speaking, maintaining the ”turn-taking” dynamic essential for effective communication. C. The Metric Gap: Why BLEU Fails We argue that the field is currently suffering from a measurement crisis."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 7,
+        "text": "Metric Gap: Why BLEU Fails We argue that the field is currently suffering from a measurement crisis. The standard metric, BLEU (Bilingual Evaluation Understudy), measures overlap between the machine output and a human reference. It does not account for timing. A system that translates a joke correctly but delivers the punchline 10 seconds late would receive a perfect BLEU score, despite failing completely as a communication tool."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 8,
+        "text": "seconds late would receive a perfect BLEU score, despite failing completely as a communication tool. For TalkFlow, we recommend for the adoption of **Time-to-First-Token (TTFT)** and **Lagging** (the average delay between a word being spoken and its translation appearing) as the primary Key Performance Indicators (KPIs)."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 9,
+        "text": "a word being spoken and its translation appearing) as the primary Key Performance Indicators (KPIs). As noted in [17] and [18], until the research community standardizes these latency-aware metrics, the gap between academic S2ST research and deployable engineering solutions will remain wide. D. Hardware Viability Finally, we compared the architectures based on their survival rate on low-end hardware."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 10,
+        "text": "Viability Finally, we compared the architectures based on their survival rate on low-end hardware. End-to-End models, while offering superior prosody preservation [27], frequently caused ”Out of Memory” (OOM) crashes on mobile browsers during our tests. A model that crashes the user’s tab has a utility of zero, regardless of its theoretical translation quality. The Hybrid-Streaming architecture was the only approach that consistently ran within the 300MB memory safety limit of iOS Safari. VIII."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 11,
+        "text": "the only approach that consistently ran within the 300MB memory safety limit of iOS Safari. VIII. CONCLUSION AND FUTURE WORK This survey examined the research on real-time S2ST from 2021 to 2025. The evidence points to a clear divergence: while End-to-End models represent the scientific future, hybrid-streaming architectures represent the engineering present. For the TalkFlow project, we reject the pure cascaded approach due to its latency issues."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 12,
+        "text": "present. For the TalkFlow project, we reject the pure cascaded approach due to its latency issues. Instead, we recommend for a streaming-cascaded hybrid optimized via quantization and WASM. We explicitly acknowledge that this approach sacrifices some prosodic richness for speed, a trade-off we deem necessary for the web. Future work must focus on: 1) Code-Switching: Improving models to handle mixed-language input (e.g., Hinglish) without manual language selection."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 13,
+        "text": "Improving models to handle mixed-language input (e.g., Hinglish) without manual language selection. 2) Visual Context: Integrating video feeds to help disambiguate spoken words [10]. 3) Latency Metrics: Developing standardized metrics that penalize delay as heavily as mistranslation. Only by solving these infrastructure problems can we make real-time, cross-language communication truly accessible on the open web. ACKNOWLEDGMENTS The authors express gratitude to Dr. S. P. Khedkar and Dr. N. F."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 14,
+        "text": "on the open web. ACKNOWLEDGMENTS The authors express gratitude to Dr. S. P. Khedkar and Dr. N. F. Shaikh for their mentorship and technical guidance throughout the development of this survey. REFERENCES [1] M. A. Chaudhari, A. R. Chaudhari, V. R. Chaudhari, and P. D. Chaudhari, “AI Based Technique for Language Translation: Breaking the Communication Barriers,” 2025 5th International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON), 2025, pp. 841–846. [2] M."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 15,
+        "text": "Smart Generation Computing, Communication and Networking (SMART GENCON), 2025, pp. 841–846. [2] M. M. Labied, A. A. Belangour, and K. E. L. Hadj, “Assessing Speech-to-Text Translation Quality: An Overview of Key Metrics,” 2024 International Conference on Decision Aid Sciences and Applications (DASA), 2024, pp. 1198–1202. [3] A. K. Singh, V. Singh, A. Singh, and S. C."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 16,
+        "text": "and Applications (DASA), 2024, pp. 1198–1202. [3] A. K. Singh, V. Singh, A. Singh, and S. C. Rai, “Browser Extension for Instant Language Conversion for Video Audio,” 2025 3rd International Conference on Innovative Data Communication Technologies and Application (ICIDCA), 2025, pp. 1–6. [4] A. Santosa, A. Jarin, L. R."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 7,
+        "chunk_number": 17,
+        "text": "Communication Technologies and Application (ICIDCA), 2025, pp. 1–6. [4] A. Santosa, A. Jarin, L. R. Aini, et al., “The Architecture of Speech-to-Speech Translator for Mobile Conversation,” 2019 International Conference on Information and Communications Technology (ICOIACT), 2019, pp. 60–65. Page 7 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 7 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 1,
+        "text": "TABLE I: Performance Comparison: Why TalkFlow Was Selected Architecture Core Mechanism Critical Bottleneck Est. Latency Verdict Cascaded ASR → Text → MT → TTS Pipeline Blocking (Must wait for full sentences) > 4500ms Rejected End-to-End Direct Audio → Audio Compute Cost (GPU Memory exhaustion) ∼ 2000ms Rejected TalkFlow Hybrid Streaming Network Jitter (WASM serialization overhead) < 800ms Selected [5] S. Madkaikar, V. Belhekar, Y. Dharmadhikari, and A. K."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 2,
+        "text": "serialization overhead) < 800ms Selected [5] S. Madkaikar, V. Belhekar, Y. Dharmadhikari, and A. K. Tripathy, “Enhancing Multimedia Accessibility: Automated Video Captioning and Translation System Using OpenAI Whisper,” 2024 5th International Conference on Smart Technologies in Computing, Electrical and Electronics (ICSTCEE), 2024, pp. 1–6. [6] S. Polepaka, V. P. Kumar, S. U. Chandra, H. Nagendra, and G."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 3,
+        "text": "(ICSTCEE), 2024, pp. 1–6. [6] S. Polepaka, V. P. Kumar, S. U. Chandra, H. Nagendra, and G. Thakur, “Automated Caption Generation for Video Call with Language Translation,” E3S Web of Conferences (ICMPC 2023), vol. 430, pp. 010–025, 2023. [7] P. Patare, P. Said, A. Shaikh, and S. Shah, “Bridging Language Barriers: The Role of AI in Real-Time Multilingual Translation for Video Conferencing,” International Journal of Innovative Research in Technology (IJIRT), vol. 11, no. 5, pp. 2001–2005, Oct."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 4,
+        "text": "Journal of Innovative Research in Technology (IJIRT), vol. 11, no. 5, pp. 2001–2005, Oct. 2024. [8] L. Jiang, Y. Wang, and F. Shang, “English Translation Model Based on Intelligent Recognition,” Proc. Int. Conf. on Evolutionary Algorithms and Soft Computing Techniques (EASCT), IEEE, pp. 1–6, 2023. [9] H. Shah, M. Patel, and R. K. Gupta, “Enhancing Multimedia Accessibility: Automated Video Captioning and Translation System Using OpenAI Whisper,” Proc. Asian Conf."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 5,
+        "text": "Automated Video Captioning and Translation System Using OpenAI Whisper,” Proc. Asian Conf. on Intelligent Technologies (ACOIT), IEEE, Karnataka, India, Sep. 2024, pp. 1–7. [10] B. Liu, R. Rajasekar, A. Shukla, A. Solomon, L. Xu, A. Saravanan, and J. Kuleshov, “Integrating Natural Language Processing and Computer Vision into an Interactive Learning Platform,” Proc. IEEE MIT Undergraduate Research Technology Conf. (URTC), pp. 1–5, 2020. [11] K. Chen, R. Wang, M. Utiyama, and E."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 6,
+        "text": "Research Technology Conf. (URTC), pp. 1–5, 2020. [11] K. Chen, R. Wang, M. Utiyama, and E. Sumita, “Integrating Prior Translation Knowledge Into Neural Machine Translation,” IEEE/ACM Trans. on Audio, Speech, and Language Processing, vol. 30, pp. 330–344, Jan. 2022. [12] D. Rakesh, D. P. R. Sandesh, and V. Nirmalrani, “LinguaFusion: AI-Powered Multilingual Video Voice Translator,” Proc. 7th IEEE Int. Conf. on Intelligent Sustainable Systems (ICISS), pp. 975–982, 2025. [13] B. A. Boobal, C. A."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 7,
+        "text": "Int. Conf. on Intelligent Sustainable Systems (ICISS), pp. 975–982, 2025. [13] B. A. Boobal, C. A. Reddy, L. J. J., C. C. K. Reddy, and C. B. V. S. R. Rohith, “Real-Time Sign Language and Audio Conversion Using AI,” Proc. Int. Conf. on Communication, Control, and Intelligent Systems (CCIS), IEEE, 2024. [14] J. R. V. Jeny, S. Shivaspandana, K. Pavan, and K. Akash, “Secure Audio Processing: Facial Encryption with Speech Transcription and Translation,” Proc. 5th Int. Conf."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 8,
+        "text": "Audio Processing: Facial Encryption with Speech Transcription and Translation,” Proc. 5th Int. Conf. on Expert Clouds and Applications (ICOECA), IEEE, 2025. doi:10.1109/ICOECA66273.2025.00032 [15] K. Padmanandam, P. Girija, U. Shivani, G. Vaishnavi, and T. Pooja, “Spoken Language Identification and Translation Using Deep Learning,” Proc. 7th Int. Conf. on Electronics, Communication and Aerospace Technology (ICECA), IEEE, 2023, pp. 535–541. [16] S. Iyer, P. Bhattacharya, and M."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 9,
+        "text": "and Aerospace Technology (ICECA), IEEE, 2023, pp. 535–541. [16] S. Iyer, P. Bhattacharya, and M. Singh, “AI-Driven Real-Time Multilingual Communication System for Video Conferencing Platforms,” Proceedings of the 7th IEEE International Conference on Intelligent Sustainable Systems (ICISS 2025), Chennai, India, Jan. 2025, pp. 482–489. [17] “The Problem with Evaluating State-of-the-Art AI Translation,” Slator, accessed Nov. 7, 2025. [Online]."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 10,
+        "text": "Problem with Evaluating State-of-the-Art AI Translation,” Slator, accessed Nov. 7, 2025. [Online]. Available: https://slator.com/ problem-evaluating-state-of-the-art-ai-translation/ [18] S. Mieno, et al., “Better Late Than Never: Evaluation of Latency Metrics for Simultaneous Speech-to-Text Translation,” arXiv:2509.17349, 2025. [Online]. Available: https://arxiv.org/html/2509.17349v1 [19] R."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 11,
+        "text": "arXiv:2509.17349, 2025. [Online]. Available: https://arxiv.org/html/2509.17349v1 [19] R. Zhang, et al., “StressTransfer: Stress-Aware Speech-to-Speech Translation with Emphasis Preservation,” arXiv:2510.13194, 2025. [Online]. Available: https://arxiv.org/html/2510.13194v1 [20] S. S. Kamble and P. N. Chatur, “Speech To Speech Translation: Challenges and Future,” Int. J. of Computer Applications Technology and Research, vol. 11, no. 3, 2022. [Online]."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 12,
+        "text": "Future,” Int. J. of Computer Applications Technology and Research, vol. 11, no. 3, 2022. [Online]. Available: https://ijcat.com/ archieve/volume11/volume11issue3.pdf [21] Y. Dong, et al., “Recent Advances in End-to-End Simultaneous Speech Translation,” Proc. of IJCAI, 2024. [Online]. Available: https://www.ijcai. org/proceedings/2024/0900.pdf [22] “The 10 Most Important Statistics & Breakthroughs in AI Speech Translation from 2024,” Kudo.ai, accessed Nov. 7, 2025."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 13,
+        "text": "Statistics & Breakthroughs in AI Speech Translation from 2024,” Kudo.ai, accessed Nov. 7, 2025. [23] “State of Live AI Translation,” Wordly.ai, accessed Nov. 7, 2025. [Online]. Available: https://www.wordly.ai/resources/ wordly-ai-translation-research-2024 [24] “Real-Time Voice Translation: Breaking Down Language Barriers,” Waywithwords.net, accessed Nov. 7, 2025. [Online]."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 14,
+        "text": "Translation: Breaking Down Language Barriers,” Waywithwords.net, accessed Nov. 7, 2025. [Online]. Available: https: //waywithwords.net/resource/speech-data-real-time-voice-translation/ [25] “New Research Reviews Key Challenges in Simultaneous Speech Translation,” Slator, accessed Nov. 7, 2025. [Online]. Available: https://slator.com/ new-research-reviews-key-challenges-in-simultaneous-speech-translation/ [26] S. Mieno, et al., “Speed or Accuracy?"
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 15,
+        "text": "[26] S. Mieno, et al., “Speed or Accuracy? A Study in Evaluation of Simultaneous Speech Translation,” Proc. of Interspeech, 2015. [Online]. Available: http://phontron.com/paper/mieno15interspeech.pdf [27] A. Garg, et al., “Direct Speech to Speech Translation: A Review,” arXiv:2503.04799, 2025. [Online]. Available: https://arxiv.org/html/2503. 04799v1 [28] “SeamlessM4T—Massively Multilingual & Multimodal Machine Translation,” AI at Meta, accessed Nov. 7, 2025. [Online]."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 16,
+        "text": "Multilingual & Multimodal Machine Translation,” AI at Meta, accessed Nov. 7, 2025. [Online]. Available: https://ai.meta.com/research/publications/ seamlessm4t-massively-multilingual-multimodal-machine-translation/ [29] Y. Wang, et al., “End-to-End Speech-to-Text Translation: A Survey,” arXiv:2312.01053, 2023. [Online]. Available: https://arxiv.org/html/2312. 01053v2 [30] “Cascaded Speech Translation Systems Outperform End-to-End Models, Research Finds,” Slator, accessed Nov. 7, 2025. [31] Y."
+    },
+    {
+        "filename": "data/sample.pdf",
+        "page_number": 8,
+        "chunk_number": 17,
+        "text": "Systems Outperform End-to-End Models, Research Finds,” Slator, accessed Nov. 7, 2025. [31] Y. Han, et al., “Overcoming Latency Bottlenecks in On-Device Speech Translation: A Cascaded Approach with Alignment-Based Streaming MT,” arXiv:2508.13358, 2025. [Online]. Available: https://arxiv.org/html/ 2508.13358v1 Page 8 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469 Page 8 of 8 - AI Writing Submission Submission ID trn:oid:::24993:126614469"
+    }
+]
