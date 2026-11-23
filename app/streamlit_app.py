@@ -57,17 +57,20 @@ if "answer" not in st.session_state:
 if "sources" not in st.session_state:
     st.session_state.sources = []
 
+if "summary" not in st.session_state:
+    st.session_state.summary = ""
+
 
 # -----------------------------------------
 # 4. APPLICATION HEADER
 # -----------------------------------------
 
-st.title("📚 IntelliAns")
+st.title("📚 Welcome to IntelliAns")
 
 st.subheader("AI-Powered Document Question Answering")
 
 st.write(
-    "Upload your PDF and ask questions. "
+    "Welcome to IntelliAns! Upload your PDF and ask questions. "
     "IntelliAns retrieves relevant information "
     "and generates answers using AI."
 )
@@ -179,6 +182,91 @@ if st.button("Process PDF", type="primary"):
             st.exception(error)
 
 
+# -----------------------------------------
+# 7. PDF SUMMARY GENERATOR
+# -----------------------------------------
+
+st.divider()
+
+st.header("2. Generate PDF Summary")
+
+if st.session_state.documents:
+
+    if st.button("Generate PDF Summary"):
+
+        try:
+            with st.spinner("Generating PDF summary using Gemini..."):
+
+                # Collect all extracted PDF text
+                pdf_text = "\n\n".join(
+                    document["text"]
+                    for document in st.session_state.documents
+                )
+
+                # Get Gemini API key
+                api_key = os.getenv("GEMINI_API_KEY")
+
+                if not api_key:
+                    try:
+                        api_key = st.secrets["GEMINI_API_KEY"]
+                    except Exception:
+                        api_key = None
+
+                if not api_key:
+                    st.error("Gemini API key not found.")
+
+                else:
+                    client = genai.Client(
+                        api_key=api_key,
+                        http_options=types.HttpOptions(
+                            timeout=120000
+                        )
+                    )
+
+                    prompt = f"""
+                    You are IntelliAns, a PDF summarization assistant.
+
+                    Summarize the following PDF clearly.
+
+                    Include:
+                    1. Document Overview
+                    2. Important Key Points
+                    3. Main Findings
+                    4. Conclusion
+
+                    Use simple language. Do not invent information.
+
+                    PDF CONTENT:
+                    {pdf_text}
+                    """
+
+                    response = client.models.generate_content(
+                        model="gemini-3.5-flash-lite",
+                        contents=prompt
+                    )
+
+                    st.session_state.summary = response.text
+
+        except Exception as error:
+            st.error("Summary generation failed.")
+            st.exception(error)
+
+    # Display summary
+    if st.session_state.summary:
+
+        st.subheader("PDF Summary")
+
+        st.markdown(st.session_state.summary)
+
+        st.download_button(
+            "Download Summary",
+            data=st.session_state.summary,
+            file_name="PDF_Summary.txt",
+            mime="text/plain"
+        )
+
+else:
+    st.info("Please upload and process a PDF first.")
 # -----------------------------------------
 # 7. QUESTION INPUT
 # -----------------------------------------
