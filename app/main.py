@@ -9,6 +9,10 @@ def welcome_message():
     print("====================================")
     print("Building an AI-powered knowledge assistant")
     print("Using LLM, RAG and Machine Learning concepts")
+    print("====================================\n")
+
+# Display greetings to client at starting
+welcome_message()
 
 filename = input("Enter document filename: ")
 
