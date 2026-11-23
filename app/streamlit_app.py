@@ -6,6 +6,9 @@ import streamlit as st
 import faiss
 import numpy as np
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -65,15 +68,51 @@ if "summary" not in st.session_state:
 # 4. APPLICATION HEADER
 # -----------------------------------------
 
-st.title("📚 Welcome to IntelliAns")
+# -----------------------------------------
+# 4. APPLICATION HEADER
+# -----------------------------------------
 
-st.subheader("AI-Powered Document Question Answering")
+current_time = datetime.now(ZoneInfo("Asia/Kolkata"))
+hour = current_time.hour
 
-st.write(
-    "Welcome to IntelliAns! Upload your PDF and ask questions. "
-    "IntelliAns retrieves relevant information "
-    "and generates answers using AI."
+if hour < 12:
+    greeting = "Good Morning"
+    emoji = "☀️"
+elif hour < 17:
+    greeting = "Good Afternoon"
+    emoji = "🌤️"
+else:
+    greeting = "Good Evening"
+    emoji = "🌙"
+
+st.markdown(
+    f"""
+    <div style="margin-bottom: 15px;">
+        <h3 style="color:#60A5FA; margin-bottom:5px;">
+            {emoji} {greeting}!
+        </h3>
+        <p style="color:#CBD5E1; font-size:17px; margin-top:0;">
+            Welcome to IntelliAns 👋
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
+
+st.markdown(
+    """
+    <h1 style="color:white; font-size:32px;">
+        Your documents. Your answers.
+    </h1>
+    <p style="color:#CBD5E1; font-size:17px;">
+        Your own PDF-powered AI assistant.
+        Upload, summarize and explore your documents with AI.
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
+st.divider()
 
 st.divider()
 
